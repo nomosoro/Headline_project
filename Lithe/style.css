@@ -326,30 +326,58 @@ hr
 }
 .works .work-sec .filimg
 {
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	cursor: pointer;
 }
-.works .work-sec .filimg .img-hover
+.works .work-sec .filimg .hover-title
 {
 	position: absolute;
 	bottom: 0px;
-	background: rgba(248, 75, 74, 0.67) none repeat scroll 0% 0%;;
+	background: rgba(75, 75, 74, 0.5) none repeat scroll 0% 0%;
 	left: 15px;
 	right: 15px;
-	display: none;
+	display: block;
+	max-height:inherit;
 }
-.works .work-sec .filimg:hover .img-hover
+/*.works .work-sec .filimg:hover .hover-title
 {
 	display: block;
-}
-.works .work-sec .filimg .img-hover h3
+}*/
+.works .work-sec .filimg .hover-title h3
 {
 	color: #FFF;
 	font-size: 16px;
 	padding: 15px;
+	max-height:20%;
+	display:block;
 }
-
-
+.works .work-sec .filimg .hover-title p
+{
+	color:#FFF;
+	font-size:14px;
+	padding:10px;
+	display:none;
+	max-height:60%;
+	overflow:hidden;
+}
+.works .work-sec .filimg .hover-title a
+{
+	color:#FFF;
+	font-size:16px;
+	padding:10px;
+	display:none;
+	transition:1s;
+	max-height:20%;
+	text-align:center;
+}
+.works .work-sec .filimg .hover-title:hover p
+{
+	display:block;
+}
+.works .work-sec .filimg .hover-title:hover a
+{
+	display:block;
+}
 
 /**client section**/
 .client
