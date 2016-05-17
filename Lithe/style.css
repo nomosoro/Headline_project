@@ -326,10 +326,12 @@ hr
 }
 .works .work-sec .filimg
 {
+	max-height:200px;
 	margin-bottom: 15px;
 	cursor: pointer;
+	overflow:hidden;
 }
-.works .work-sec .filimg .hover-title
+.works .work-sec .filimg .hover-page
 {
 	position: absolute;
 	bottom: 0px;
@@ -339,11 +341,11 @@ hr
 	display: block;
 	max-height:inherit;
 }
-/*.works .work-sec .filimg:hover .hover-title
+/*.works .work-sec .filimg:hover .hover-page
 {
 	display: block;
 }*/
-.works .work-sec .filimg .hover-title h3
+.works .work-sec .filimg .hover-page h3
 {
 	color: #FFF;
 	font-size: 16px;
@@ -351,34 +353,70 @@ hr
 	max-height:20%;
 	display:block;
 }
-.works .work-sec .filimg .hover-title p
+.works .work-sec .filimg .hover-page p
 {
 	color:#FFF;
 	font-size:14px;
-	padding:10px;
-	display:none;
-	max-height:60%;
+	display:block;
+	overflow:hidden;
+	height:0px;
+	box-sizing:border-box;
+	margin:0;
+}
+.works .work-sec .filimg .hover-page .hover-footer
+{
+	
+	font-size:16px;
+	margin:0;
+	display:block;
+	height:0px;
+
+	box-sizing:border-box;
 	overflow:hidden;
 }
-.works .work-sec .filimg .hover-title a
+
+.works .work-sec .filimg .hover-page .hover-footer a
 {
 	color:#FFF;
-	font-size:16px;
-	padding:10px;
-	display:none;
-	transition:1s;
-	max-height:20%;
+	display:block;
+	text-align:right;
+	text-decoration:underline;
+	width:31%;
+	float:left;
+	padding:0px 15px;
+}
+.works .work-sec .filimg .hover-page .hover-footer div
+{
+	height:30px;
+	color:#FFF;
+	font-style:italic;
+	text-align:left;
+	float:left;
+
+	font-size:12px;
+	width:33%;
+	padding:0px 15px;
+}
+.works .work-sec .filimg .hover-page .hover-footer .labels
+{
+	font-size:15px;
 	text-align:center;
-}
-.works .work-sec .filimg .hover-title:hover p
-{
-	display:block;
-}
-.works .work-sec .filimg .hover-title:hover a
-{
-	display:block;
+	font-style:normal;
+
 }
 
+
+
+	
+/*.works .work-sec .filimg .hover-page:hover p
+{
+	display:block;
+}
+.works .work-sec .filimg .hover-page:hover a
+{
+	display:block;
+}
+*/
 /**client section**/
 .client
 {
@@ -720,6 +758,11 @@ font-size: 16px;
 .contact .contact-info .cont-txt p
 {
 	font-size: 14px;
+}
+
+.flex-container 
+{
+	display:flex !important;
 }
 
 }
