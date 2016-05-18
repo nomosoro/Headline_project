@@ -321,12 +321,14 @@ hr
 }
 .works .work-sec img
 {
-	width: 100%;
+	width:100%;
+	margin:auto;
 	position: relative;
 }
 .works .work-sec .filimg
 {
 	max-height:200px;
+	min-height:200px;
 	margin-bottom: 15px;
 	cursor: pointer;
 	overflow:hidden;
@@ -352,24 +354,29 @@ hr
 	padding: 15px;
 	max-height:20%;
 	display:block;
+
+	box-sizing:border-box;
 }
 .works .work-sec .filimg .hover-page p
 {
 	color:#FFF;
 	font-size:14px;
-	display:block;
+	display:none;
 	overflow:hidden;
 	height:0px;
+
+	padding:5px 10px;
 	box-sizing:border-box;
 	margin:0;
 }
 .works .work-sec .filimg .hover-page .hover-footer
 {
 	
-	font-size:16px;
+	font-size:14px;
 	margin:0;
-	display:block;
+	display:none;
 	height:0px;
+	padding:5px 10px;
 
 	box-sizing:border-box;
 	overflow:hidden;
@@ -379,9 +386,9 @@ hr
 {
 	color:#FFF;
 	display:block;
-	text-align:right;
+	text-align:center;
 	text-decoration:underline;
-	width:31%;
+	width:33.333%;
 	float:left;
 	padding:0px 15px;
 }
@@ -394,16 +401,10 @@ hr
 	float:left;
 
 	font-size:12px;
-	width:33%;
-	padding:0px 15px;
+	width:33.333%;
+	padding:0px 0px;
 }
-.works .work-sec .filimg .hover-page .hover-footer .labels
-{
-	font-size:15px;
-	text-align:center;
-	font-style:normal;
 
-}
 
 
 

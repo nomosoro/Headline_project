@@ -13,7 +13,15 @@
 	<!--[if lt IE 9]-->
 	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<script src="js/myjQuery.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery-1.9.1.min.js"></script> 
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/jquery.mixitup.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery.quovolver.js"></script>
+    <script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>
+	<script src="js/myjs.js"></script>
 	<!--[endif]-->
 </head>
 	<body>
@@ -23,8 +31,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="intro-text text-center">
-							<h3>We Fullfill Your Dream</h3>
-							<p>Fusce risus metus, placerat in consectetur eu, porttitor a est sed <span style="display:block;">sed dolor lorem cras adipiscing</span></p>
+							<h1>Welcome to Flash News</h1>
+							<p>Fastest, Newest, at your service. 
+								<ul id="movieList"></ul>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -36,7 +46,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="sec-head">
-							<h2>Our Privious <span>Works</span></h2>
+							<h2>Today's <span>New</span></h2>
 							<hr></hr>
 						</div>
 					</div>
@@ -48,13 +58,13 @@
 							<div class="filter col-md-3 col-sm-3 col-xs-3 wrk-title lst-cld" data-filter=".category-3">My Favorite</div>
 						</div>
 							<div id="Container" class="flex-container">
-								<div class="filimg mix category-1 category-3 col-md-4 col-sm-4 col-xs-12" data-myorder="2">
+								<div class="filimg mix category-1 category-3 col-md-4 col-sm-6 col-xs-12" data-myorder="2">
 									<img src="Resources/HK/1/pics/1.jpg">
 									<div class="hover-page">
 										<h3>Resort</h3>
 									</div>
 								</div>
-								<div class="filimg mix category-2 col-md-4 col-sm-4 col-xs-12" data-myorder="4">
+								<div class="filimg mix category-2 col-md-4 col-sm-6 col-xs-12" data-myorder="4">
 									<img src="Resources/World/1/pics/1.jpeg">
 									<div class="hover-page">
 										<h3>Donald Trump: Ban all Muslim travel to U.S.. </h3>
@@ -68,30 +78,60 @@
 
 									</div>
 								</div>
+								<div class="filimg mix category-2 col-md-4 col-sm-6 col-xs-12 img-less" data-myorder="8">
 
-								<div class="filimg mix category-1 col-md-4 col-sm-4 col-xs-12" data-myorder="1">
-									<img src="Resources/HK/4/pics/1.jpg">
-									<div class="hover-page" lang="cn">
-										<h3>张德江抵达香港画面</h3>
-										<p>
-										5月17日中午，全国人大委员长张德江专机抵达香港，香港特别行政区行政长官梁振英、中央人民政府驻香港联络办公室主任张晓明与香港各界代表到机场迎接。
-										</p>
+									<img src="Resources/World/bgImg.jpg">
+									<div class="hover-page">
+										<h3>RNC chairman: Third-party run would be a 'suicide mission'</h3>
+										<p>"They can try to hijack another party and get on the ballot, but, look, it's a suicide mission for our country because what it means is that you're throwing down not just eight years of the White House but potentially 100 years on the Supreme Court and wrecking this country for many generations," Priebus said on "Fox News Sunday," anticipating that a conservative third-party candidate would split the Republican vote and ensure a Democrat wins the White House.
+										"So I think that's the legacy these folks will leave behind. I think it's very dangerous, and there's other ways to get assurances on the things that they're worried about," he said.
+										The top Republican's comments come as a group of anti-Trump conservatives seek an alternative to the two likely nominees.
+										Mitt Romney made an unsuccessful effort to recruit Nebraska Sen. Ben Sasse as a third-party candidate, a source with knowledge of the efforts confirmed to CNN Sunday.
+										Sasse, the freshman Republican, has emerged as one of Trump's foremost critics from the right. Romney and Sasse have talked, the source said, and Romney encouraged Sasse to seriously consider a run.
+										The conversation was first reported by The Washington Post.
+										But Sasse is refusing to enter the race.
+										"We will decline to comment on the senator's conversations," Sasse spokesman James Wegmann said. "Sen. Sasse has been clear about this when asked before: He has three little kids and the only callings he wants -- raising them and serving Nebraskans. The answer is no."
+										A Romney spokeswoman declined to comment.
+										The Nebraska senator's rejection comes as anti-Trump Republicans struggle to find a candidate willing to wage a third-party bid.
+										Several conservative leaders of anti-Trump efforts, including The Weekly Standard editor Bill Kristol, are polling and reaching out to donors who oppose the presumptive Republican nominee.
+										"I think there will be an independent candidate," Kristol told CNN's Don Lemon on Thursday. "I think a Republican of integrity and honor who people like me will feel comfortable voting for."
+										The big problem is that they need a candidate, and haven't found one yet.
+										For potential candidates like Sasse, appeasing anti-Trump conservatives in Washington comes with risk back home.
+										At the Nebraska GOP convention, Sasse was rebuked through a resolution that was overwhelmingly approved by Republicans there who argued that his position would only help Hillary Clinton win the White House. Shielding Trump from criticism, the convention also rejected a resolution that would have condemned derogatory remarks toward women and minorities, The Lincoln Journal Star reports.
+										Trump's opponents have also looked outside the political world.
+										Mark Cuban, the tech mogul billionaire who owns the NBA's Dallas Mavericks, confirmed a Washington Post report that he'd heard from Trump opponents attempting to recruit a candidate. Cuban declined to name the people who were involved.
+										"My conversations with them were minimal," he said. "They reached out to my right-hand man who is my D.C. guy."
+										CNN's Jeff Zeleny and Brian Stelter contributed to this report.</p>
 										<div class="col-xs-12 hover-footer">
 										<div>
 									    3 minutes ago
-										</div>
-										<div class="labels">
-										港 陆 选
-
 										</div>
 										<a href="http://edition.cnn.com/2015/12/07/politics/donald-trump-muslim-ban-immigration/" target="_self"> Read More</a>
 										</div>
 									</div>
 								</div>
-								<div class="filimg mix category-2 category-3 col-md-4 col-sm-4 col-xs-12" data-myorder="8">
-									<img src="Resources/World/2/pics/1.jpg">
+								<div class="filimg mix category-1 col-md-4 col-sm-6 col-xs-12 img-less" data-myorder="1">
+									<img src="Resources/HK/bgImg.jpg">
+									<div class="hover-page" lang="cn">
+										<h3>张德江抵达香港画面</h3>
+										<p>
+										5月17日中午，全国人大委员长张德江专机抵达香港，香港特别行政区行政长官梁振英、中央人民政府驻香港联络办公室主任张晓明与香港各界代表到机场迎接。驻香港联络办公室主任张晓明与香港各界代表到机场迎接。驻香港联络办公室主任张晓明与香港各界代表到机场迎接。驻香港联络办公室主任张晓明与香港各界代表到机场迎接。
+										</p>
+										<div class="col-xs-12 hover-footer">
+										<div>
+									    3 minutes ago
+										</div>
+
+										
+
+										<a href="http://edition.cnn.com/2015/12/07/politics/donald-trump-muslim-ban-immigration/" target="_self"> Read More</a>
+										</div>
+									</div>
+								</div>
+								<div class="filimg mix category-2 category-3 col-md-4 col-sm-6 col-xs-12 img-less" data-myorder="8">
+									<img src="Resources/World/bgImg.jpg">
 									<div class="hover-page">
-										<h3>Obama knocks Trump at Rutgers: 'Ignorance is not a virtue'</h3>
+										<h3>Obama knocks Trump at Rutgers: 'Ignorance is not a virtue</h3>
 										<p>Though he didn't name Trump, Obama's target was apparent.
 										"In politics and in life, ignorance is not a virtue," he told the more than 12,000 graduates in New Brunswick, New Jersey. "It's not cool to not know what you're talking about. That's not keeping it real or telling it like it is. That's not challenging political correctness. That's just not knowing what you're talking about. And yet we've become confused about this."
 										Obama's comments at Rutgers echo similar shots he's taken at Trump -- also without naming him -- during recent appearances.
@@ -109,7 +149,9 @@
 										</div>
 									</div>
 								</div>
-								<div class="filimg mix category-2 col-md-4 col-sm-4 col-xs-12" data-myorder="8">
+
+								<div class="filimg mix category-2 col-md-4 col-sm-6 col-xs-12" data-myorder="8">
+
 									<img src="Resources/World/3/pics/1.jpg">
 									<div class="hover-page">
 										<h3>RNC chairman: Third-party run would be a 'suicide mission'</h3>
@@ -140,7 +182,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="filimg mix category-2 category-3 col-md-4 col-sm-4 col-xs-12" data-myorder="8">
+								<div class="filimg mix category-2 category-3 col-md-4 col-sm-6 col-xs-12" data-myorder="8">
 									<img src="Resources/World/4/pics/1.jpg">
 									<div class="hover-page">
 										<h3>Clinton edges Sanders in chaotic Nevada convention</h3>
@@ -162,6 +204,30 @@
 										</div>
 									</div>
 								</div>
+								<div class="filimg mix category-2 category-3 col-md-4 col-sm-6 col-xs-12 img-less" data-myorder="8">
+									<img src="Resources/World/bgImg.jpg">
+									<div class="hover-page">
+										<h3>Clinton edges Sanders in chaotic Nevada convention</h3>
+										<p>The reason things wrapped up quickly and unceremoniously: They were kicked out of the casino hosting the convention.
+										The Nevada State Democratic Party said Sunday that the Paris Las Vegas Hotel's security said it could no longer handle their event.
+										"At approximately 10:00 p.m. on Saturday night, the director of security for the Paris Las Vegas Hotel informed the state party and representatives from both presidential campaigns that the property could no longer provide the necessary security under conditions made unruly and unpredictable. Paris Las Vegas Hotel security requested a prompt conclusion to the event," the Nevada State Democratic Party said in a statement.
+										From there, the state chairwoman Roberta Lange accepted a motion to adopt the delegate slates submitted by the Hillary Clinton and Bernie Sanders campaigns, the state party said.
+										Sanders' supporters had hoped that winning county conventions would give them more delegates than Clinton -- and therefore would help the Vermont senator secure an advantage in Nevada, even though Clinton had won the state's Democratic caucuses in February.
+										But the state party's count gave Clinton a 33-delegate advantage out of the 3,400 who attended Saturday.
+										The results of the convention mean Nevada will send 20 pledged delegates to the Democratic National Convention in Philadelphia for Clinton, plus 15 for Sanders. Another eight, many of whom have committed to backing Clinton, will go as superdelegates.
+										Sanders' supporters booed and protested the count, according to local media reports. They'd also produced a "minority report" of 64 Sanders supporters who they said were wrongly denied delegate status -- which the state party explained by saying those individuals' records couldn't be located or they weren't registered as Democrats by the May 1 deadline.
+										</p>
+										<div class="col-xs-12 hover-footer">
+										<div>
+									    3 minutes ago
+										</div>
+										
+										<a href="http://edition.cnn.com/2015/12/07/politics/donald-trump-muslim-ban-immigration/" target="_self"> Read More</a>
+										</div>
+									</div>
+								</div>
+								
+
 							</div>
 					</div>
 				</div>
@@ -189,149 +255,28 @@
 				</div>
 			</div>
 		</section>
-		<script src="js/jquery.min.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery-1.11.3.min.js"></script>
-		<script src="js/jquery-1.9.1.min.js"></script> 
-    	<script src="js/owl.carousel.js"></script>
-    	<script src="js/jquery.mixitup.js" type="text/javascript"></script>
-    	<script type="text/javascript" src="js/jquery.quovolver.js"></script>
-    	<!--for smooth scrolling-->
-		    	<script>
-			$(function() {
-			  $('a[href*=#]:not([href=#])').click(function() {
-			    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		
 
-			      var target = $(this.hash);
-			      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-			      if (target.length) {
-			        $('html,body').animate({
-			          scrollTop: target.offset().top
-			        }, 1000);
-			        return false;
-			      }
-			    }
-			  });
-			});
-			</script>
+
+		
+		<script type="text/html" id="block_template">
+			<div class="filimg mix ${categories} col-md-4 col-sm-6 col-xs-12 ${img_status}" data-myorder="8">
+				<img src=${img_link}>
+				<div class="hover-page">
+					<h3>${title}</h3>
+					<p>${paragraphs}</p>
+					<div class="col-xs-12 hover-footer">
+						<div>
+					    ${time_dev} ago
+						</div>
+						<a href=${source_link} target="_self"> Read More</a>
+					</div>
+				</div>
+			</div>
+		</script>
+
     	<!--demo-->
-    	<script>
-	    $(document).ready(function() {
-	      $("#owl-demo").owlCarousel({
-	        autoPlay: 4000,
-	        items : 4,
-	        itemsDesktop : [1199,3],
-	        itemsDesktopSmall : [979,3]
-	      });
-
-	    });
-
-    	</script>
-
-    	<script type="text/javascript">
-		   
-
-		    $(document).ready(function() {
-		     
-		      var owl = $("#owl-demo");
-		     
-		      owl.owlCarousel();
-		     
-		      // Custom Navigation Events
-		      $(".next").click(function(){
-		        owl.trigger('owl.next');
-		      })
-		      $(".prev").click(function(){
-		        owl.trigger('owl.prev');
-		      })
-		     
-		    });
-
-
-
-
-    	</script>
-
-    	<script type="text/javascript">
-		    	$(function(){
-
-			// Instantiate MixItUp:
-
-			$('#Container').mixItUp();
-
-		});
-    	</script>
-    	<script>
-		    		jQuery(function ($) {
-		    // fancybox
-		    $(".fancybox").fancybox({
-		        modal: true, // disable regular nav and close buttons
-		        // add buttons helper (requires buttons helper js and css files)
-		        helpers: {
-		            buttons: {}
-		        } 
-		    });
-		    // filter selector
-		    $(".filter").on("click", function () {
-		        var $this = $(this);
-		        // if we click the active tab, do nothing
-		        if ( !$this.hasClass("active") ) {
-		            $(".filter").removeClass("active");
-		            $this.addClass("active"); // set the active tab
-		            // get the data-rel value from selected tab and set as filter
-		            var $filter = $this.data("rel"); 
-		            // if we select view all, return to initial settings and show all
-		            $filter == 'all' ? 
-		                $(".fancybox")
-		                .attr("data-fancybox-group", "gallery")
-		                .not(":visible")
-		                .fadeIn() 
-		            : // otherwise
-		                $(".fancybox")
-		                .fadeOut(0)
-		                .filter(function () {
-		                    // set data-filter value as the data-rel value of selected tab
-		                    return $(this).data("filter") == $filter; 
-		                })
-		                // set data-fancybox-group and show filtered elements
-		                .attr("data-fancybox-group", $filter)
-		                .fadeIn(1000); 
-		        } // if
-		    }); // on
-		}); // ready
-    	</script>
-
-
-
-
-
-    	<script>
-
-
-   $('.quotes').quovolver({
-      equalHeight   : true
-    });
-
-   $('.filimg').mouseenter(function(){
-
-   		var $this = $(this).children(".hover-page");
-   		var parentHeight=$this.parent().height();
-   		var hHeight=$this.children("h3").height();
-  		var pHeight=parentHeight-hHeight;
-		//	$this.animate({background:rgba(75, 75, 74, 0.8) none repeat scroll 0% 0%},500);
-   		$this.children("p").css("padding","5px 10px").animate({height:pHeight-60},500);
-   		$this.children(".hover-footer").css("padding","5px 0px").animate({height:30},500);
-   });
-
-   $('.filimg').mouseleave(function(){
-
-   		var $this = $(this).children(".hover-page");
-   		//$this.animate({background:rgba(75, 75, 74, 0.5) none repeat scroll 0% 0%},500);
-   		$this.children("p").animate({height:0},300).animate({padding:0},100);
-   		$this.children(".hover-footer").animate({height:0},300).animate({padding:0},100);
-   });
-
-    	</script>
+    
 
     	
 	</body>
