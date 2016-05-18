@@ -290,9 +290,9 @@ hr
 	float: left;
 	padding: 80px 0px 0px 0px;
 }
-#Container .mix{
+/*#Container .mix{
 	display: none;
-}
+}*/
 .works .work-sec .fil-btn
 {
 	margin-bottom: 36px;
@@ -325,10 +325,14 @@ hr
 	margin:auto;
 	position: relative;
 }
+.clean{
+	margin:0 !important;
+	padding:0 !important;
+}
+
 .works .work-sec .filimg
 {
-	max-height:200px;
-	min-height:200px;
+
 	margin-bottom: 15px;
 	cursor: pointer;
 	overflow:hidden;
