@@ -52,10 +52,10 @@
 					</div>
 					<div class="work-sec">
 						<div class="col-md-12 fil-btn">
-							<div class="filter col-md-3 col-sm-3 col-xs-3 wrk-title active" data-filter="all">Show All</div>
-							<div class="filter col-md-3 col-sm-3 col-xs-3 wrk-title" data-filter=".category-1">HongKong</div>
-							<div class="filter col-md-3 col-sm-3 col-xs-3 wrk-title" data-filter=".category-2">World</div>
-							<div class="filter col-md-3 col-sm-3 col-xs-3 wrk-title lst-cld" data-filter=".category-3">My Favorite</div>
+							<div class="filter col-md-3 col-sm-3 col-xs-3 wrk-title bg-info active" data-filter="all">Show All</div>
+							<div class="filter col-md-3 col-sm-3 col-xs-3 wrk-title bg-info" data-filter=".category-1">HongKong</div>
+							<div class="filter col-md-3 col-sm-3 col-xs-3 wrk-title bg-info" data-filter=".category-2">World</div>
+							<div class="filter col-md-3 col-sm-3 col-xs-3 wrk-title bg-info lst-cld" data-filter=".category-3">My Favorite</div>
 						</div>
 							<div id="Container" class="flex-container">
 								<div class="col-md-4 col-sm-12 col-xs-12 clean" id="column1">
@@ -97,17 +97,34 @@
 
 
 		
-		<script type="text/html" id="block_template">
-			<div class="filimg mix ${categories} col-md-12 col-sm-12 col-xs-12 ${img_status}" data-myorder="8">
-				<img src=${img_link}>
-				<div class="hover-page">
-					<h3>${title}</h3>
-					<p>${paragraphs}</p>
-					<div class="col-xs-12 hover-footer">
-						<div>
-					    ${time_dev} ago
-						</div>
-						<a href=${source_link} target="_self"> Read More</a>
+		<script type="text/html" id="img_template">
+			<div class="filimg mix ${categories} col-md-12 col-sm-12 col-xs-12" data-myorder="8">
+				<div class="col-md-12 col-sm-12 col-xs-12 img-container clean">
+					<img src=${img_link} class="img-responsive img-thumbnail">
+					<h3 class="bg-warning col-xs-12 strong">${title}</h3>
+				</div>
+				<div class="down-page col-md-12 col-sm-12 col-xs-12 well">
+					<p>${demo_paragraph}</p>
+					<p id=${hid_id} class="collapse">${all_paragraphs}</p>
+					<div  class="col-xs-12 down-footer">
+						<div class="col-xs-4 text-left">${time_dev} ago</div>
+						<div data-toggle="collapse" data-target="#${hid_id}" class="col-xs-4 text-center collapser">More  <span class="caret"></span></div>
+						<a href=${source_link} target="_self" class="col-xs-3 pull-right text-center btn btn-info">Source</a>
+					</div>
+				</div>
+			</div>
+		</script>
+
+		<script type="text/html" id="imgless_template">
+			<div class="filimg mix ${categories} col-md-12 col-sm-12 col-xs-12" data-myorder="8">
+					<h3 class="well col-xs-12 strong">${title}</h3>
+				<div class="down-page col-md-12 col-sm-12 col-xs-12 well">
+					<p>${demo_paragraph}</p>
+					<p id=${hid_id} class="collapse">${all_paragraphs}</p>
+					<div  class="col-xs-12 down-footer">
+						<div class="col-xs-4 text-left">${time_dev} ago</div>
+						<div data-toggle="collapse" data-target="#${hid_id}" class="col-xs-4 text-center collapser">More  <span class="caret"></span></div>
+						<a href=${source_link} target="_self" class="col-xs-3 pull-right text-center btn btn-info">Source</a>
 					</div>
 				</div>
 			</div>
